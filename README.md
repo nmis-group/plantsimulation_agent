@@ -1,51 +1,61 @@
-# Plant Simulation AI Agent
+# 🌿 Plant Simulation AI Agent
 
-## What is this?
-This is an embed plant simulation AI agent help the user to auto generate plant simulation model.
+[![Python 3.10+](https://shields.io)](https://python.org)
+[![License: Professional](https://shields.io)](https://siemens.com)
+[![AI: OpenRouter](https://shields.io)](https://openrouter.ai)
 
-## What need to use it?
-You need the following prepared to use this tool.
-* 1, Python (3.10 or higher) library installed in system level
-* 2, Plant Simulation (with professional license) installed in your local machine
-* 3, OpenRouter API key
-* 4, Required Python libray in the requirement.txt
+An intelligent embedded agent that automates the generation of Siemens Plant Simulation models using LLMs.
 
-## How to use it?
-* 1, When you have everything prepared, new a blank plant simulation part.
-* 2, Import this tool.psobj file into your model
-* 3, In the AI_Agent dialog, input your OpenRouter API key.
-* 4, Select the suitable AI model in the Dialog
-* 5, Type your prompt in the prompt text box.
-* 6, Select support files for your tasks
-* 7, Click Run to wait the result
+## 🚀 Overview
+This tool bridges the gap between natural language and discrete event simulation. By simply describing your layout, the AI agent handles object creation and routing within your model.
 
-## Example Prompts
+---
 
-### Example 1: Basic Assembly Line
-Prompt: Create two stations and one assembly station and two source objects and one drain object and connect them each other. The model path is `.Models.Model`
+## 📋 Prerequisites
+Before you start, ensure your environment meets these requirements:
+
+> [!IMPORTANT]
+> - **Python 3.10+** (System-level installation)
+> - **Tecnomatix Plant Simulation** (Professional License required for COM interface)
+> - **OpenRouter API Key** for LLM access
+> - **Dependencies**: Run `pip install -r requirements.txt`
+
+---
+
+## 🛠️ Getting Started
+1. **Prepare Model**: Open a new blank `.Models.Model` part.
+2. **Import Tool**: Drag and drop the `tool.psobj` file into your model.
+3. **Configure**: Open the `AI_Agent` dialog and paste your **OpenRouter API Key**.
+4. **Select Model**: Choose your preferred AI model (e.g., GPT-4 or Claude 3) from the dropdown.
+5. **Prompt & Run**: Enter your simulation requirements and click **Run**.
+
+---
+
+## 💡 Example Showcases
+
+### 1. Basic Assembly Line
+**Prompt:** *"Create two sources, two stations, one assembly station, and a drain. Connect them in sequence at `.Models.Model`."*
 
 ![View Example 1 Demo](./Example/Example1_prompt_demo.gif)
-![Video Example 1 Demo](./Example/Example1_promt_demo.mp4)
----
-
-### Example 2: Complex Assembly Line with Image Reference
-Prompt: Create a similar assembly line as shown in the picture, but with one more station in each of current existing pre-process branches before into the assembly station. The model path is `.Models.Model`
-
-uploaded file: factory.jpg
-
-![View Example 2 Demo](./Example/Example2_image_demo.gif)
-![Video Example 2 Demo](./Example/Example2_image_demo.mp4)
 
 ---
 
-### Example 3: Assembly Line from XML File
-Prompt: Create an assembly line from the upload xml file. The model path is `.Models.Model`
+### 2. Image-to-Model (Vision)
+**Prompt:** *"Replicate the assembly line in the attached image, but add one extra pre-process station to each branch."*
 
-uploaded file: export_model.xml
 
-![View Example 3 Demo](./Example/Example3_xml_demo.gif)
-![Video Example 3 Demo](./Example/Example3_xml_demo.mp4)
+| Input Reference | Resulting Animation |
+| :--- | :--- |
+| `factory.jpg` | ![Example 2 Demo](./Example/Example2_image_demo.gif) |
+
 ---
 
-## Video Playback Note
-The video files are stored in the `./Example/` folder. Click the links above to view the demos directly on GitHub or download them to your local machine.
+### 3. XML Data Integration
+**Prompt:** *"Generate the assembly line architecture based on the uploaded XML configuration."*
+
+![Example 3 Demo](./Example/Example3_xml_demo.gif)
+
+---
+
+## 📽️ Video Demos
+If the GIFs above do not load, you can find high-resolution MP4 recordings in the [Example Folder](./Example/).
