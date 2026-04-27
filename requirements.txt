@@ -1,0 +1,8 @@
+openai
+re
+base64
+requests
+pathlib
+tkinter
+csv
+pandas
