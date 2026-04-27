@@ -23,8 +23,23 @@ You need the following prepared to use this tool.
 * 1 create two stations and one assembly station and two source objects and one drain object and connect them each other. The model path is .Models.Model
 [View Example 1 Demo](./Example/Example1_prompt_demo.mp4)
 
+<video width="100%" height="auto" controls>
+  <source src="./Example/Example1_prompt_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 * 2 Create a similar assebly line as shown in the picture, but with one more station in each of current existing pre-process branches before into the assembly station. The model path is .Models.Model
 [View Example 2 Demo](./Example/Example2_image_demo.mp4)
 
+<video width="100%" height="auto" controls>
+  <source src="./Example/Example2_image_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 * 3, Create an assembly line from the upload xml file. The model path is .Models.Model
 [View Example 3 Demo](./Example/Example3_xml_demo.mp4)
+
+<video width="100%" height="auto" controls>
+  <source src="./Example/Example3_xml_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
