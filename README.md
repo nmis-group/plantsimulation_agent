@@ -22,24 +22,29 @@ You need the following prepared to use this tool.
 ## Example Prompts
 
 ### Example 1: Basic Assembly Line
-Create two stations and one assembly station and two source objects and one drain object and connect them each other. The model path is `.Models.Model`
+Prompt: Create two stations and one assembly station and two source objects and one drain object and connect them each other. The model path is `.Models.Model`
 
-� ![View Example 1 Demo](./Example/Example1_prompt_demo.gif)
-
+![View Example 1 Demo](./Example/Example1_prompt_demo.gif)
+![Video Example 1 Demo](./Example/Example1_promt_demo.mp4)
 ---
 
 ### Example 2: Complex Assembly Line with Image Reference
-Create a similar assembly line as shown in the picture, but with one more station in each of current existing pre-process branches before into the assembly station. The model path is `.Models.Model`
+Prompt: Create a similar assembly line as shown in the picture, but with one more station in each of current existing pre-process branches before into the assembly station. The model path is `.Models.Model`
 
-📹 ![View Example 2 Demo](./Example/Example2_image_demo.gif)
+uploaded file: factory.jpg
+
+![View Example 2 Demo](./Example/Example2_image_demo.gif)
+![Video Example 2 Demo](./Example/Example2_image_demo.mp4)
 
 ---
 
 ### Example 3: Assembly Line from XML File
-Create an assembly line from the upload xml file. The model path is `.Models.Model`
+Prompt: Create an assembly line from the upload xml file. The model path is `.Models.Model`
 
-📹 ![View Example 3 Demo](./Example/Example3_xml_demo.gif)
+uploaded file: export_model.xml
 
+![View Example 3 Demo](./Example/Example3_xml_demo.gif)
+![Video Example 3 Demo](./Example/Example3_xml_demo.mp4)
 ---
 
 ## Video Playback Note
