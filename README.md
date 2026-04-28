@@ -24,7 +24,11 @@ Before you start, ensure your environment meets these requirements:
 
 ## 🛠️ Getting Started
 1. **Prepare Model**: Open a new blank `.Models.Model` part.
-2. **Import Tool**: Drag and drop the `tool.psobj` file into your model.
+2. **AI Agent setup**: 
+   * Drag and drop the `tool.psobj` file into your model.
+   * Create a empty Model under Agent folder
+   * Drag AI_Agent dialog, OpenAI python model, FileSelect Python model, AI_ErrorHandler Method, AIMethod Method and FileList into the empty model
+   * Then invoke the dialog by 'Show Dialog' popup menu
 3. **Configure**: Open the `AI_Agent` dialog and paste your **OpenRouter API Key**.
 4. **Select Model**: Choose your preferred AI model (e.g., GPT-4 or Claude 3) from the dropdown.
 5. **Prompt & Run**: Enter your simulation requirements and click **Run**.
