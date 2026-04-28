@@ -16,7 +16,7 @@ Before you start, ensure your environment meets these requirements:
 
 > [!IMPORTANT]
 > - **Python 3.10+** (System-level installation)
-> - **Tecnomatix Plant Simulation** (Professional License required for COM interface)
+> - **Tecnomatix Plant Simulation** (Professional License required)
 > - **OpenRouter API Key** for LLM access
 > - **Dependencies**: Run `pip install -r requirements.txt`
 
