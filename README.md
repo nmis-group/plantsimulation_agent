@@ -25,7 +25,7 @@ Before you start, ensure your environment meets these requirements:
 ## 🛠️ Getting Started
 1. **Prepare Model**: Open a new blank `.Models.Model` part.
 2. **AI Agent setup**: 
-   * Drag and drop the `tool.psobj` file into your model.
+   * Drag and drop the `Agent.pslib` file into your model.
    * Create a empty Model under Agent folder
    * Drag AI_Agent dialog, OpenAI python model, FileSelect Python model, AI_ErrorHandler Method, AIMethod Method and FileList into the empty model
    * Then invoke the dialog by 'Show Dialog' popup menu
